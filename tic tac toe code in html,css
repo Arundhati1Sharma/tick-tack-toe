@@ -103,8 +103,8 @@
         this.choice = choice;
     }
     var won = false;
-    let computer = new myplayer("JARVIS", "O");
-    let player = new myplayer("ARUNDHATI", "X");
+    let computer = new myplayer("COMPUTER", "O");
+    let player = new myplayer("YOU", "X");
 
     var board = [];
     var mycell = function(myindex, sym) {
